@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Minescan Prospectors</title>
+    <link rel="stylesheet" href="style.css"> <!-- Εάν χρησιμοποιείτε ξεχωριστό αρχείο CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Contact Minescan Prospectors</h1>
+        <p>If you have any inquiries or would like to learn more about our services, please don't hesitate to contact us using the form below:</p>
+        
+        <form action="https://formspree.io/f/xoqgkola" method="POST">
+            <label for="email">Your email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Your message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
